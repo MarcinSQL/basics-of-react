@@ -14,6 +14,10 @@ body {
   color: #d9c9ee;
 }
 
+#root{
+  padding: 1rem;
+}
+
 header {
   padding: 2rem;
   display: flex;
@@ -43,6 +47,7 @@ header p {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+  padding: 0;
 }
 
 .concept {
@@ -81,4 +86,16 @@ header p {
   margin: 0;
   text-align: center;
   font-size: 0.85rem;
+}
+
+@media screen and (max-width: 768px) {
+  #concepts{
+    display: block;
+  }
+
+  .concept{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 70%;
+  }
 }
