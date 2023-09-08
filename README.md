@@ -1,3 +1,3 @@
 # Basic React App without interation
 
-Created by Marcin Wasilewski to learn how to build components in React
+Coded by Marcin Wasilewski based on course to learn how to build components in React
